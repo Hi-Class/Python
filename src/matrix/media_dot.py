@@ -12,7 +12,7 @@ while 1:
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM data")
     res = cursor.fetchall()
-    res='../../../HiSpeaker'+res[0][1][1:-4]+'.gif'
+    res='../../../Web'+res[0][1][1:-4]+'.gif'
     conn.commit()
     conn.close()
 
@@ -39,8 +39,3 @@ while 1:
                 pass
         f.close()
     prevPath=res
-    
-# for n in range(0,count):
-#     for i in range()
-# closing all open windows
-# cv2.destroyAllWindows()
