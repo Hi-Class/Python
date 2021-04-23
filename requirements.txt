@@ -1,0 +1,16 @@
+grpcio==1.37.0
+google_assistant_sdk==0.5.1
+numpy==1.16.2
+PyMySQL==1.0.2
+dialogflow==1.1.0
+pathlib2==2.3.5
+pytube==10.7.1
+opencv_python==3.4.4.19
+requests==2.21.0
+youtube_search_python==1.4.3
+Click==7.0
+tenacity==4.12.0
+grpc==1.0.0
+protobuf==3.15.8
+pyaudio==0.2.11
+gTTS==2.2.2

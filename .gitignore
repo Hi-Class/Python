@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+resource
+array_data
+*.json
+
+env.py
+*.mp4
