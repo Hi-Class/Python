@@ -22,10 +22,10 @@
 <img src="./img/8.png" height=400>
 
 ### Copy credentials to Raspberry Pi
-```
+```sh
 ~ $ google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype --scope https://www.googleapis.com/auth/gcm --save --headless --client-secrets /home/pi/Downloads/[your client oauth file name].json
 ```
-#
+
 ## Create Dialogflow
 
 ### Access the Dialogflow: https://dialogflow.cloud.google.com/
@@ -39,7 +39,6 @@
 ### [Click to Download Dialogflow File](./dialogflow_settings/speaker.zip) and Import From ZIP
 <img src="./img/11.png" height=400>
 
-#
 ## Install
 ```sh
 [Respeaker Setting]
@@ -56,7 +55,7 @@
 ~/Hi-Class $ cd Python 
 ~/Hi-Class/Python $ pip3 install -r requirements.txt
 ```
-#
+
 ## Run
 ```sh
 ~ $ cd Hi-Class
