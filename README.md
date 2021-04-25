@@ -36,7 +36,7 @@
 ### [Click to Download Dialogflow File](./dialogflow_settings/speaker.zip) -->
 
 ## Install
-```
+```sh
 [Respeaker Setting]
 ~ $ git clone https://github.com/respeaker/seeed-voicecard.git
 ~ $ cd seeed-voicecard
@@ -53,7 +53,7 @@
 ```
 
 ## Run
-```
+```sh
 ~ $ cd Hi-Class
 ~/Hi-Class $ cd Python
 ~/Hi-Class/Python $ python3 main.py
