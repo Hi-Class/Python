@@ -25,20 +25,21 @@
 ```
 ~ $ google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype --scope https://www.googleapis.com/auth/gcm --save --headless --client-secrets /home/pi/Downloads/[your client oauth file name].json
 ```
-
+#
 ## Create Dialogflow
 
 ### Access the Dialogflow: https://dialogflow.cloud.google.com/
+
 ### Create Project
-
-### <a href="./dialogflow_settings/speaker.zip" download>Click to Download Dialogflow File</a>
-
-### [Click to Download Dialogflow File](./dialogflow_settings/speaker.zip)
-
-### Import From ZIP
 <img src="./img/9.png" height=400>
 
+### Write like this and press CREATE button
+<img src="./img/10.png" height=400>
 
+### [Click to Download Dialogflow File](./dialogflow_settings/speaker.zip) and Import From ZIP
+<img src="./img/11.png" height=400>
+
+#
 ## Install
 ```sh
 [Respeaker Setting]
@@ -55,7 +56,7 @@
 ~/Hi-Class $ cd Python 
 ~/Hi-Class/Python $ pip3 install -r requirements.txt
 ```
-
+#
 ## Run
 ```sh
 ~ $ cd Hi-Class
