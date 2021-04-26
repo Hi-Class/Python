@@ -36,7 +36,7 @@
 ### Write like this and press CREATE button
 <img src="./img/10.png" height=400>
 
-### [Click to Download Dialogflow File](./dialogflow_settings/speaker.zip) and Import From ZIP
+### [Click to Download Dialogflow File](https://github.com/Hi-Class/Python/blob/main/dialogflow_settings/speaker.zip) and Import From ZIP
 <img src="./img/11.png" height=400>
 
 ## Install
