@@ -45,8 +45,8 @@
 ~ $ git clone https://github.com/respeaker/seeed-voicecard.git
 ~ $ cd seeed-voicecard
 ~/seeed-voicecard $ sudo ./install.sh
-~ $ sudo apt-get update
-~ $ sudo apt-get install portaudio19-dev libffi-dev libssl-dev ~ $ libmpg123-dev
+~/seeed-voicecard $ sudo apt-get update
+~/seeed-voicecard $ sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev
 
 [Source Clone and Install Python modules]
 ~ $ mkdir Hi-Class
