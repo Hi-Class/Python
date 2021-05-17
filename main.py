@@ -124,6 +124,7 @@ class SampleAssistant(object):
         global begin
         flg=0
         if begin:
+            os.system('gtts-cli '+ "'" + "네 무엇을 도와드릴까요" + "'" +' --lang ko | mpg123 -')
             flg=1
         """Send a voice request to the Assistant and playback the response.
 
@@ -166,7 +167,6 @@ class SampleAssistant(object):
                     logging.info('result_text: ' + result_text)
                 if ('하이' in result_text) and ('클래스' in result_text):
                     begin=1
-                    os.system('gtts-cli '+ "네" +' --lang ko | mpg123 -')
                 elif begin==1:
                     if '급식' in result_text:
                         date, meal_time=get_parameter.meal(result_text)
@@ -186,10 +186,10 @@ class SampleAssistant(object):
                             pass
                         logging.info('schedule data: ' + schedule)
                         break
-                    elif '유튜브' in result_text:
-                        result_text=result_text.replace('유튜브','')
+                    elif '틀어 줘' in result_text:
+                        result_text=result_text.replace('틀어 줘','')
                         get_youtube_mp3.youtube_audio(result_text)
-                        os.system('omxplayer --vol -1500 output.mp4')
+                        os.system('omxplayer --vol -500 output.mp4')
                         break
                     self.conversation_stream.write(resp.audio_out.audio_data)
 
