@@ -58,7 +58,9 @@
 ```
 
 ## NEIS OPEN API
-https://open.neis.go.kr/portal/guide/apiGuidePage.do
+``` 3. OpenAPI 인증키 발급 ```  
+https://open.neis.go.kr/portal/guide/apiGuidePage.do  
+paste API KEY to KEY variable
  
 ```sh
 [Setting Neis token, Dialogflow OAuth, Device id]
@@ -66,6 +68,7 @@ https://open.neis.go.kr/portal/guide/apiGuidePage.do
 ~/Hi-Class/Python/src/speaker $ cp env.py.example env.py
 ~/Hi-Class/Python/src/speaker $ nano env.py
 # Fill all section
+
 # get_meal_schedule
 KEY='' # NEIS API KEY
 SCHUL_NM='' # School Name
