@@ -165,6 +165,9 @@ class SampleAssistant(object):
                     self.conversation_stream.start_playback()
                     logging.info('Playing assistant response.')
                     logging.info('result_text: ' + result_text)
+
+                if not begin and (not ('하' in result_text)):
+                    return
                 if ('하이' in result_text) and ('클래스' in result_text):
                     begin=1
                 elif begin==1:
